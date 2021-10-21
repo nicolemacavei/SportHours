@@ -1,11 +1,6 @@
 package com.company;
 
-public class TeamSport implements Sport{
+public abstract class TeamSport implements Sport{
 
-
-
-    @Override
-    public double calculateTime() {
-        return 0;
-    }
+    public abstract double calculateTime();
 }

@@ -1,10 +1,11 @@
 package com.company;
 
-public class LightSport implements Sport{
+public abstract class LightSport implements Sport{
 
-
+    /**
+     * Lightsport is an abstract class that contains
+     * HighJump and Running classes.
+     */
     @Override
-    public double calculateTime() {
-        return 0;
-    }
+    public abstract double calculateTime();
 }

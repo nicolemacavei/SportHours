@@ -2,5 +2,10 @@ package com.company;
 
 public interface Sport {
 
-    public double calculateTime();
+
+    /**
+     * The class TeamSport has two other classes - Football & Basketball
+     * and those methods.
+     */
+    double calculateTime();
 }
